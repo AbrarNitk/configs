@@ -6,7 +6,7 @@ function bf() {
 }
 
 function p() {
-  git add .  
+  git add .
   git commit -m "$(git branch --show-current): $1"
   git push
 }
@@ -31,35 +31,6 @@ function swap() {
 
 }
 
-# cargo related commands
-
-function run() {
-  cargo run $*
-}
-
-function build() {
-  cargo build
-}
-
-function release() {
-  cargo build --relelase
-}
-
-function check() {
-    cargo check
-}
-
-function cc() {
-    check
-}
-
-function clippy() {
-    cargo clippy
-}
-
-function fmt() {
-    cargo fmt
-}
 
 function pyfmt() {
    black dj
