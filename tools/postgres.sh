@@ -4,11 +4,17 @@
 # To make it possible we have to tweek settings in the pg_hba.conf to allow the
 # peer authetication on the Unix systems.
 
+# create schema
+# drop schema
 # create role
 # delete role
 # create database
 # delete database
 # recreate database
+
+# psql -c "<query>" -> run in the non-interactive mode
+# psql -f <file-path> -> run in the non-interactive mode from the file
+
 
 function recreate_db() {
     WHO=`whoami`
