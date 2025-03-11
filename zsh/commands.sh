@@ -35,3 +35,22 @@ function swap() {
 function pyfmt() {
    black dj
 }
+
+# Docker alias
+function dc() {
+    docker $*
+}
+
+# cargo alias
+function ca() {
+  cargo $*
+}
+
+function cac() {
+    ca check
+}
+
+
+alias pbcopy="xclip -sel clip"
+
+
